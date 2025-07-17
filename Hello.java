@@ -101,5 +101,6 @@ public class Hello {
         for (City city : cities) {
             System.out.println(city);
         }
+        sc.close();
     }
 }

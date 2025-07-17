@@ -23,7 +23,7 @@
 
 import java.util.*;
 
-public class Hello{
+public class C_to{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuilder words = new StringBuilder();
@@ -42,5 +42,6 @@ public class Hello{
 
         System.out.println(words.toString().trim());
         System.out.println(sum);
+        sc.close();
     }
 }

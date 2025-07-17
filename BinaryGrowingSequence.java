@@ -58,6 +58,7 @@ public class BinaryGrowingSequence {
         }
 
         System.out.println(isEqual ? "YES" : "NO");
+        sc.close();
     }
 }
 

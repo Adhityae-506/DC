@@ -67,4 +67,5 @@ int main() {
 
     printf("%d\n", countShoePairs(N, arr));
     return 0;
+    //-------Code over----
 }

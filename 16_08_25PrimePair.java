@@ -31,7 +31,7 @@
 
 import java.util.*;
 
-public class PrimePair {
+public class 16_08_25PrimePair {
     static boolean isPrime(int n){
         if (n < 2) return false;
         for (int i = 2; i * i <= n; i++) {

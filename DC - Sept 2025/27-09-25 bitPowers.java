@@ -34,7 +34,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
         BigInteger N = new BigInteger(s);
-        String binaryStr = N.toString(2);  // Convert to binary string
+        String binaryStr = N.toString(2);  
         
         List<BigInteger> powers = new ArrayList<>();
         int length = binaryStr.length();
